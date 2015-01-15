@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.easysocial.feature_1.0.0.qualifier.jar" id="com.easysocial.feature" version="1.0.0.qualifier">
+      <category name="com.easysocial.category"/>
+   </feature>
+   <category-def name="com.easysocial.category" label="EasySocial Java Project">
+      <description>
+         Java Project with Access to Your Social Network Data
+      </description>
+   </category-def>
+</site>

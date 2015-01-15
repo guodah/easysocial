@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Central
+Bundle-SymbolicName: com.easysocial.central
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: EASYSOCIAL
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Require-Bundle: com.easysocial.h2;bundle-version="1.0.0",
+ com.easysocial.facebook;bundle-version="1.0.0",
+ com.easysocial.gephi;bundle-version="1.0.0"
+Export-Package: com.easysocial.integrator,
+ com.easysocial.logging,
+ com.easysocial.oauthclient,
+ com.easysocial.saver.sql,
+ com.easysocial.utils

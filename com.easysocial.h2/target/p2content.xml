@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='com.easysocial.h2' version='1.0.0.201501152004' singleton='false'>
+    <update id='com.easysocial.h2' range='[0.0.0,1.0.0.201501152004)' severity='0'/>
+    <properties size='4'>
+      <property name='org.eclipse.equinox.p2.name' value='H2'/>
+      <property name='maven-groupId' value='com.easysocial'/>
+      <property name='maven-artifactId' value='com.easysocial.h2'/>
+      <property name='maven-version' value='1.0.0-SNAPSHOT'/>
+    </properties>
+    <provides size='38'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.h2' version='1.0.0.201501152004'/>
+      <provided namespace='osgi.bundle' name='com.easysocial.h2' version='1.0.0.201501152004'/>
+      <provided namespace='java.package' name='org.h2' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.api' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.bnf' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.command' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.command.ddl' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.command.dml' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.compress' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.constant' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.constraint' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.engine' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.expression' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.fulltext' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.index' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.jdbc' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.jdbcx' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.jmx' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.message' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.mvstore' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.mvstore.cache' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.mvstore.db' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.mvstore.rtree' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.mvstore.type' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.result' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.schema' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.security' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.server' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.server.pg' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.server.web' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.store' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.store.fs' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.table' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.tools' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.upgrade' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.util' version='0.0.0'/>
+      <provided namespace='java.package' name='org.h2.value' version='0.0.0'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+    </provides>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.easysocial.h2' version='1.0.0.201501152004'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='2'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.easysocial.h2&#xA;Bundle-Version: 1.0.0.201501152004&#xA;
+        </instruction>
+        <instruction key='zipped'>
+          true
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Gephi
+Bundle-SymbolicName: com.easysocial.gephi
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: EASYSOCIAL
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ClassPath: gephi-toolkit.jar,
+ .
+Eclipse-BundleShape: dir
+Export-Package: com.easysocial.networks,
+ com.easysocial.networks.gephi

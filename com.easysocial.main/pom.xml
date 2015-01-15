@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.easysocial</groupId>
+	<artifactId>com.easysocial.main</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<!-- the modules that shall be built together in one reactor -->
+	<modules>
+
+	<module>../com.easysocial.apache</module>
+	<module>../com.easysocial.apis</module>
+	<module>../com.easysocial.eclipse</module>
+	<module>../com.easysocial.facebook</module>
+	<module>../com.easysocial.gephi</module>
+	
+	<module>../com.easysocial.h2</module>
+	
+	
+	<module>../com.easysocial.central</module>
+	<module>../com.easysocial.feature</module>
+	<module>../com.easysocial.repository</module>
+	</modules>
+
+  <properties>
+    <tycho-version>0.17.0</tycho-version>
+  </properties>
+  
+  <build>
+    <plugins>
+      <plugin>
+        <!-- enable the Tycho build extension -->
+        <groupId>org.eclipse.tycho</groupId>
+        <artifactId>tycho-maven-plugin</artifactId>
+        <version>${tycho-version}</version>
+        <extensions>true</extensions>
+      </plugin>
+    </plugins>
+  </build>
+  
+  <repositories>
+    <!-- configure p2 repository to resolve against -->
+    <repository>
+      <id>eclipse-platform-m6</id>
+      
+      
+      <layout>p2</layout>
+      <url>http://download.eclipse.org/eclipse/updates/4.3</url>
+    </repository>
+  </repositories>
+  
+</project>
+
+</project>

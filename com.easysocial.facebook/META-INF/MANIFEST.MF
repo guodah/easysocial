@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Facebook
+Bundle-SymbolicName: com.easysocial.facebook
+Bundle-Version: 1.0.0.qualifier
+Bundle-ClassPath: restfb-1.6.14.jar
+Export-Package: com.restfb,
+ com.restfb.batch,
+ com.restfb.exception,
+ com.restfb.json,
+ com.restfb.types,
+ com.restfb.util
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7

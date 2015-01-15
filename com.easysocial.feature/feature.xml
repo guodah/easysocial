@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.easysocial.feature"
+      label="EasySocial"
+      version="1.0.0.qualifier"
+      provider-name="Florida Gulf Coast University">
+
+   <description>
+      Access Facebook data in Java programs.
+   </description>
+
+   <copyright>
+      Use it however you want.
+   </copyright>
+
+   <license url="">
+      Open Source.
+   </license>
+
+   <plugin
+         id="com.easysocial.apache"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="com.easysocial.apis"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.easysocial.central"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.easysocial.eclipse"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.easysocial.facebook"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="com.easysocial.gephi"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.easysocial.google"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="com.easysocial.h2"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="com.easysocial.linkedin"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+   <plugin
+         id="com.easysocial.twitter"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+</feature>
