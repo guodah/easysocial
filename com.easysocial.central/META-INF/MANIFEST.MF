@@ -4,7 +4,7 @@ Bundle-Name: Central
 Bundle-SymbolicName: com.easysocial.central
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: EASYSOCIAL
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Require-Bundle: com.easysocial.h2;bundle-version="1.0.0",
  com.easysocial.facebook;bundle-version="1.0.0",
  com.easysocial.gephi;bundle-version="1.0.0"

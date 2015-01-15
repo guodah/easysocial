@@ -2,7 +2,7 @@
 <feature
       id="com.easysocial.feature"
       label="EasySocial"
-      version="1.0.0.201501152004"
+      version="1.0.0.201501152107"
       provider-name="Florida Gulf Coast University">
 
    <description>
@@ -21,64 +21,46 @@
          id="com.easysocial.apache"
          download-size="1592"
          install-size="1790"
-         version="1.0.0.201501152004"/>
+         version="1.0.0.201501152107"/>
 
    <plugin
          id="com.easysocial.apis"
          download-size="12"
          install-size="22"
-         version="1.0.0.201501152004"
+         version="1.0.0.201501152107"
          unpack="false"/>
 
    <plugin
          id="com.easysocial.central"
          download-size="53"
-         install-size="88"
-         version="1.0.0.201501152004"
+         install-size="87"
+         version="1.0.0.201501152107"
          unpack="false"/>
 
    <plugin
          id="com.easysocial.eclipse"
-         download-size="238"
-         install-size="286"
-         version="1.0.0.201501152004"
+         download-size="235"
+         install-size="278"
+         version="1.0.0.201501152107"
          unpack="false"/>
 
    <plugin
          id="com.easysocial.facebook"
          download-size="295"
          install-size="315"
-         version="1.0.0.201501152004"/>
+         version="1.0.0.201501152107"/>
 
    <plugin
          id="com.easysocial.gephi"
          download-size="21171"
          install-size="22879"
-         version="1.0.0.201501152004"
+         version="1.0.0.201501152107"
          unpack="false"/>
-
-   <plugin
-         id="com.easysocial.google"
-         download-size="7075"
-         install-size="7896"
-         version="1.0.0.201409051500"/>
 
    <plugin
          id="com.easysocial.h2"
          download-size="1479"
          install-size="1539"
-         version="1.0.0.201501152004"/>
-
-   <plugin
-         id="com.easysocial.linkedin"
-         download-size="459"
-         install-size="542"
-         version="1.0.0.201409051500"/>
-
-   <plugin
-         id="com.easysocial.twitter"
-         download-size="613"
-         install-size="676"
-         version="1.0.0.201409051500"/>
+         version="1.0.0.201501152107"/>
 
 </feature>

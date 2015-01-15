@@ -4,7 +4,7 @@ Bundle-Name: Apis
 Bundle-SymbolicName: com.easysocial.apis
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: EASYSOCIAL
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Require-Bundle: com.easysocial.central;bundle-version="1.0.0",
  com.easysocial.gephi;bundle-version="1.0.0",
  com.easysocial.h2;bundle-version="1.0.0"

@@ -40,4 +40,4 @@ Export-Package: org.h2,
  org.h2.upgrade,
  org.h2.util,
  org.h2.value
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6

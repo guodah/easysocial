@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
 <artifacts size='1'>
-  <artifact classifier='osgi.bundle' id='com.easysocial.h2' version='1.0.0.201501152004'>
+  <artifact classifier='osgi.bundle' id='com.easysocial.h2' version='1.0.0.201501152107'>
     <properties size='5'>
-      <property name='artifact.size' value='1515247'/>
-      <property name='download.size' value='1515247'/>
+      <property name='artifact.size' value='1515249'/>
+      <property name='download.size' value='1515249'/>
       <property name='maven-groupId' value='com.easysocial'/>
       <property name='maven-artifactId' value='com.easysocial.h2'/>
       <property name='maven-version' value='1.0.0-SNAPSHOT'/>

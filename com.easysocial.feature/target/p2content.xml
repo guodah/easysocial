@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <units size='2'>
-  <unit id='com.easysocial.feature.feature.group' version='1.0.0.201501152004' singleton='false'>
-    <update id='com.easysocial.feature.feature.group' range='[0.0.0,1.0.0.201501152004)' severity='0'/>
+  <unit id='com.easysocial.feature.feature.group' version='1.0.0.201501152107' singleton='false'>
+    <update id='com.easysocial.feature.feature.group' range='[0.0.0,1.0.0.201501152107)' severity='0'/>
     <properties size='7'>
       <property name='org.eclipse.equinox.p2.name' value='EasySocial'/>
       <property name='org.eclipse.equinox.p2.description' value='Access Facebook data in Java programs.'/>
@@ -12,20 +12,17 @@
       <property name='maven-version' value='1.0.0-SNAPSHOT'/>
     </properties>
     <provides size='1'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.feature.feature.group' version='1.0.0.201501152004'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.feature.feature.group' version='1.0.0.201501152107'/>
     </provides>
-    <requires size='11'>
-      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.apache' range='[1.0.0.201501152004,1.0.0.201501152004]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.apis' range='[1.0.0.201501152004,1.0.0.201501152004]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.central' range='[1.0.0.201501152004,1.0.0.201501152004]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.eclipse' range='[1.0.0.201501152004,1.0.0.201501152004]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.facebook' range='[1.0.0.201501152004,1.0.0.201501152004]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.gephi' range='[1.0.0.201501152004,1.0.0.201501152004]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.google' range='[1.0.0.201409051500,1.0.0.201409051500]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.h2' range='[1.0.0.201501152004,1.0.0.201501152004]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.linkedin' range='[1.0.0.201409051500,1.0.0.201409051500]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.twitter' range='[1.0.0.201409051500,1.0.0.201409051500]'/>
-      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.feature.feature.jar' range='[1.0.0.201501152004,1.0.0.201501152004]'>
+    <requires size='8'>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.apache' range='[1.0.0.201501152107,1.0.0.201501152107]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.apis' range='[1.0.0.201501152107,1.0.0.201501152107]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.central' range='[1.0.0.201501152107,1.0.0.201501152107]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.eclipse' range='[1.0.0.201501152107,1.0.0.201501152107]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.facebook' range='[1.0.0.201501152107,1.0.0.201501152107]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.gephi' range='[1.0.0.201501152107,1.0.0.201501152107]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.h2' range='[1.0.0.201501152107,1.0.0.201501152107]'/>
+      <required namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.feature.feature.jar' range='[1.0.0.201501152107,1.0.0.201501152107]'>
         <filter>
           (org.eclipse.update.install.features=true)
         </filter>
@@ -41,7 +38,7 @@
       Use it however you want.
     </copyright>
   </unit>
-  <unit id='com.easysocial.feature.feature.jar' version='1.0.0.201501152004'>
+  <unit id='com.easysocial.feature.feature.jar' version='1.0.0.201501152107'>
     <properties size='6'>
       <property name='org.eclipse.equinox.p2.name' value='EasySocial'/>
       <property name='org.eclipse.equinox.p2.description' value='Access Facebook data in Java programs.'/>
@@ -51,15 +48,15 @@
       <property name='maven-version' value='1.0.0-SNAPSHOT'/>
     </properties>
     <provides size='3'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.feature.feature.jar' version='1.0.0.201501152004'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.easysocial.feature.feature.jar' version='1.0.0.201501152107'/>
       <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
-      <provided namespace='org.eclipse.update.feature' name='com.easysocial.feature' version='1.0.0.201501152004'/>
+      <provided namespace='org.eclipse.update.feature' name='com.easysocial.feature' version='1.0.0.201501152107'/>
     </provides>
     <filter>
       (org.eclipse.update.install.features=true)
     </filter>
     <artifacts size='1'>
-      <artifact classifier='org.eclipse.update.feature' id='com.easysocial.feature' version='1.0.0.201501152004'/>
+      <artifact classifier='org.eclipse.update.feature' id='com.easysocial.feature' version='1.0.0.201501152107'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>

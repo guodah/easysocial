@@ -10,4 +10,4 @@ Export-Package: com.restfb,
  com.restfb.json,
  com.restfb.types,
  com.restfb.util
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
